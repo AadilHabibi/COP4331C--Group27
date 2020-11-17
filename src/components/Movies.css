@@ -1,0 +1,18 @@
+.buttons
+{
+    display: inline-block;
+    background-color: "#fb5b5a";
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage-logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    background-color: "#fb5b5a";
+    margin-bottom: 40;
+  }
