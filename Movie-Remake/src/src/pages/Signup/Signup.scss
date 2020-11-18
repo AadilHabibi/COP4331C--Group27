@@ -1,0 +1,49 @@
+$input_width: 350px;
+$input_height: 50px;
+::placeholder {
+  color: #003f5c;
+  opacity: 1;
+}
+.signup-container {
+  background-color: #003f5c;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.signup-container > div {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 500px;
+  height: 50vh;
+}
+.styled-input {
+  background-color: #465881;
+  color: white;
+  text-align: center;
+  font-size: medium;
+  width: $input_width;
+  height: $input_height;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.login-btn {
+  width: $input_width;
+  height: $input_height;
+  border-radius: 50px;
+  background-color: #fb5b5a;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  &:hover {
+    background-color: white;
+    color: #fb5b5a;
+  }
+}
