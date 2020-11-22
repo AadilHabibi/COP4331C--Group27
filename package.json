@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-frontend": "cd ExpressAPI && npm start",
+    "start-backend": "cd WebApp && npm start"
   },
   "repository": {
     "type": "git",
