@@ -107,7 +107,7 @@ function Movies() {
           justify="flex-start"
           alignItems="center"
         >
-          {movies.map((movie) => (
+          {movies?.map((movie) => (
             <Grid item xl={12} sm={4} lg={3} xl={2}>
               <MovieCard {...movie} />
             </Grid>
