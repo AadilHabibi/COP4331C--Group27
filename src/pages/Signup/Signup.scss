@@ -12,7 +12,7 @@ $input_height: 50px;
   display: flex;
   justify-content: center;
 }
-.signup-container > div {
+.signup-container > div,form {
   display: flex;
   align-self: center;
   flex-direction: column;
