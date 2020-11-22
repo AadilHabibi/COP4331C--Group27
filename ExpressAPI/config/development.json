@@ -1,0 +1,5 @@
+{
+  "db": "mongodb://Aadil:Aadil1@cluster0-shard-00-00.nbzum.mongodb.net:27017,cluster0-shard-00-01.nbzum.mongodb.net:27017,cluster0-shard-00-02.nbzum.mongodb.net:27017/Flickpick?ssl=true&replicaSet=atlas-5mp9da-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "JWT_PRIVATE_KEY": "pushandpop",
+  "PORT": 8080
+}

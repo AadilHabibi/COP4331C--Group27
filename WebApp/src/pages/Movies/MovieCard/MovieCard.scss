@@ -1,0 +1,17 @@
+.movie-card-container {
+  background-color: #103f54;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  &:hover {
+    background-color: #465881;
+  }
+}
+.movie-card-container > img {
+  width: 100%;
+  height: 80%;
+}

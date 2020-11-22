@@ -1,0 +1,4 @@
+{
+    "MOVIE_API_URL":"http://www.omdbapi.com/?apikey=d97766ae&",
+    "USER_API_URL":"http://localhost:8080"
+}
