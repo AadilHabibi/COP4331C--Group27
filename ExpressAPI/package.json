@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+>>>>>>> master
   },
   "keywords": [],
   "author": "",
