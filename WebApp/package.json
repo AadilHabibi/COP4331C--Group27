@@ -27,7 +27,7 @@
     "yup": "^0.30.0"
   },
   "scripts": {
-    "start": "node ./public/index.html",
+    "start": "node ../index.html",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
