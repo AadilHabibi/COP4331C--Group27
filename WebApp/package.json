@@ -27,6 +27,7 @@
     "yup": "^0.30.0"
   },
   "scripts": {
+    "heroku-postbuild": "npm install && npm run build"
     "start": "node ../index.html",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
